@@ -1,6 +1,6 @@
 import telebot
 
-API_Key = "2020906583:AAEU3u405rf6MwrF_blHQbkFTaUlM3DbCdU"
+API_Key = ""
 bot = telebot.TeleBot(API_Key)
 
 @bot.message_handler(commands=['hey', 'Hey'])
